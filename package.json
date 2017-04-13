@@ -1,0 +1,22 @@
+{
+    "name": "dobri",
+    "displayName": "Dobri Theme",
+    "description": "Dobri Dark And Vivid Color Theme",
+    "version": "0.0.1",
+    "publisher": "vsce",
+    "engines": {
+        "vscode": "^1.11.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Better color theme for Visual Studio Code",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Dobri001.tmTheme"
+            }
+        ]
+    }
+}
