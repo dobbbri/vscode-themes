@@ -16,7 +16,7 @@
           <key>caret</key>
           <string>#E9EE00</string>
           <key>foreground</key>
-          <string>#ABB2BF</string>
+          <string>#4E65BD</string>
           <key>invisibles</key>
           <string>#383C44</string>
           <key>lineHighlight</key>
@@ -30,9 +30,9 @@
           <key>findHighlightForeground</key>
           <string>#000000</string>
           <key>activeGuide</key>
-          <string>#00A8C6</string>
+          <string>#ABB2BF</string>
           <key>linkForeground</key>
-          <string>#C678DD</string>
+          <string>#AE81FF</string>
           <key>bracketsForeground</key>
           <string>#F8F8F2A5</string>
           <key>bracketsOptions</key>
@@ -60,9 +60,9 @@
       </dict>
       <dict>
         <key>name</key>
-        <string>Python Docstring</string>
+        <string>Docstring</string>
         <key>scope</key>
-        <string>string.quoted.docstring.multi.python, string.quoted.docstring.multi.python keyword.control.flow.python</string>
+        <string>string.quoted.docstring.multi, string.quoted.docstring.multi.keyword.control.flow</string>
         <key>settings</key>
         <dict>
           <key>foreground</key>
@@ -79,20 +79,20 @@
         <key>settings</key>
         <dict>
           <key>foreground</key>
-          <string>#ABB2BF</string>
+          <string>#4E65BD</string>
         </dict>
       </dict>
       <dict>
         <key>name</key>
         <string>String</string>
         <key>scope</key>
-        <string>string</string>
+        <string>string, constant.numeric, constant.language</string>
         <key>settings</key>
         <dict>
           <key>fontStyle</key>
           <string>italic</string>
           <key>foreground</key>
-          <string>#98C379</string>
+          <string>#A6E22E</string>
         </dict>
       </dict>
       <dict>
@@ -103,7 +103,7 @@
         <key>settings</key>
         <dict>
           <key>foreground</key>
-          <string>#98C379</string>
+          <string>#A6E22E</string>
         </dict>
       </dict>
       <dict>
@@ -114,18 +114,18 @@
         <key>settings</key>
         <dict>
           <key>foreground</key>
-          <string>#C678DD</string>
+          <string>#AE81FF</string>
         </dict>
       </dict>
       <dict>
         <key>name</key>
         <string>Numbers and Built-in Constants</string>
         <key>scope</key>
-        <string>constant.numeric, constant.language, markdown.python.constant.numeric</string>
+        <string>markdown.constant.numeric</string>
         <key>settings</key>
         <dict>
           <key>foreground</key>
-          <string>#FF9E00</string>
+          <string>#FD971F</string>
         </dict>
       </dict>
       <dict>
@@ -136,7 +136,7 @@
         <key>settings</key>
         <dict>
           <key>foreground</key>
-          <string>#00A8C6</string>
+          <string>#ABB2BF</string>
         </dict>
       </dict>
       <dict>
@@ -147,29 +147,29 @@
         <key>settings</key>
         <dict>
           <key>foreground</key>
-          <string>#98C379</string>
+          <string>#A6E22E</string>
         </dict>
       </dict>
       <dict>
         <key>name</key>
-        <string>Python Constant</string>
+        <string>Constant</string>
         <key>scope</key>
-        <string>constant.character.format.placeholder.other.python</string>
+        <string>constant.character.format.placeholder.other</string>
         <key>settings</key>
         <dict>
           <key>foreground</key>
-          <string>#FF9E00</string>
+          <string>#FD971F</string>
         </dict>
       </dict>
       <dict>
         <key>name</key>
         <string>User-defined Key Names</string>
         <key>scope</key>
-        <string>constant.other.key, meta.group.braces.curly constant.other.object.key string.unquoted.label</string>
+        <string>constant.other.key constant.other.object.key string.unquoted.label</string>
         <key>settings</key>
         <dict>
           <key>foreground</key>
-          <string>#00A8C6</string>
+          <string>#F92672</string>
         </dict>
       </dict>
       <dict>
@@ -180,7 +180,7 @@
         <key>settings</key>
         <dict>
           <key>foreground</key>
-          <string>#FF0080</string>
+          <string>#F92672</string>
         </dict>
       </dict>
       <dict>
@@ -191,7 +191,7 @@
         <key>settings</key>
         <dict>
           <key>foreground</key>
-          <string>#FF9E00</string>
+          <string>#FD971F</string>
         </dict>
       </dict>
       <dict>
@@ -202,7 +202,7 @@
         <key>settings</key>
         <dict>
           <key>foreground</key>
-          <string>#FF0080</string>
+          <string>#F92672</string>
         </dict>
       </dict>
       <dict>
@@ -213,7 +213,7 @@
         <key>settings</key>
         <dict>
           <key>foreground</key>
-          <string>#FF9E00</string>
+          <string>#FD971F</string>
         </dict>
       </dict>
       <dict>
@@ -224,7 +224,7 @@
         <key>settings</key>
         <dict>
           <key>foreground</key>
-          <string>#ABB2BF</string>
+          <string>#4E65BD</string>
         </dict>
       </dict>
       <dict>
@@ -235,7 +235,7 @@
         <key>settings</key>
         <dict>
           <key>foreground</key>
-          <string>#ABB2BF</string>
+          <string>#4E65BD</string>
         </dict>
       </dict>
 
@@ -247,7 +247,7 @@
         <key>settings</key>
         <dict>
           <key>foreground</key>
-          <string>#FF0080</string>
+          <string>#F92672</string>
         </dict>
       </dict>
       <dict>
@@ -258,18 +258,18 @@
         <key>settings</key>
         <dict>
           <key>foreground</key>
-          <string>#FF0080</string>
+          <string>#F92672</string>
         </dict>
       </dict>
       <dict>
         <key>name</key>
-        <string>Python Magic Variable</string>
+        <string>Magic Variable</string>
         <key>scope</key>
-        <string>python.support.magic.variable</string>
+        <string>support.magic.variable</string>
         <key>settings</key>
         <dict>
           <key>foreground</key>
-          <string>#FF0080</string>
+          <string>#F92672</string>
         </dict>
       </dict>
       <dict>
@@ -296,9 +296,9 @@
       </dict>
       <dict>
         <key>name</key>
-        <string>Python Function</string>
+        <string>Function</string>
         <key>scope</key>
-        <string>meta.function-call.generic.python</string>
+        <string>meta.function-call.generic</string>
         <key>settings</key>
         <dict>
           <key>foreground</key>
@@ -307,13 +307,13 @@
       </dict>
       <dict>
         <key>name</key>
-        <string>Python @ Function Decorator</string>
+        <string>@ Function Decorator</string>
         <key>scope</key>
-        <string>meta.function.decorator.python</string>
+        <string>meta.function.decorator</string>
         <key>settings</key>
         <dict>
           <key>foreground</key>
-          <string>#00A8C6</string>
+          <string>#ABB2BF</string>
         </dict>
       </dict>
       <dict>
@@ -335,23 +335,23 @@
         <key>settings</key>
         <dict>
           <key>foreground</key>
-          <string>#C678DD</string>
+          <string>#AE81FF</string>
         </dict>
       </dict>
       <dict>
         <key>name</key>
-        <string>C# Preprocessor</string>
+        <string>Preprocessor</string>
         <key>scope</key>
         <string>meta.preprocessor, entity.name.function.preprocessor</string>
         <key>settings</key>
         <dict>
           <key>foreground</key>
-          <string>#C678DD</string>
+          <string>#AE81FF</string>
         </dict>
       </dict>
 	  <dict>
         <key>name</key>
-        <string>C# Preprocessor</string>
+        <string>Preprocessor</string>
         <key>scope</key>
         <string>entity.name.function.preprocessor</string>
         <key>settings</key>
@@ -362,7 +362,7 @@
       </dict>
       <dict>
         <key>name</key>
-        <string>C# Namespace</string>
+        <string>Namespace</string>
         <key>scope</key>
         <string>meta.namespace.identifier entity.name.type, entity.name.variable</string>
         <key>settings</key>
@@ -373,7 +373,7 @@
       </dict>
       <dict>
         <key>name</key>
-        <string>C# Class Method</string>
+        <string>Class Method</string>
         <key>scope</key>
         <string>cs.meta.namespace.function.identifier.body.class.method</string>
         <key>settings</key>
@@ -384,35 +384,35 @@
       </dict>
 	  <dict>
         <key>name</key>
-        <string>C# Storage Type</string>
+        <string>Storage Type</string>
         <key>scope</key>
         <string>storage.type.cs, storage.type.variable.cs</string>
         <key>settings</key>
         <dict>
           <key>foreground</key>
-          <string>#00A8C6</string>
+          <string>#ABB2BF</string>
         </dict>
       </dict>
       <dict>
         <key>name</key>
-        <string>C# Keyword</string>
+        <string>Keyword</string>
         <key>scope</key>
         <string>keyword, keyword.other.namespace, storage.modifier</string>
         <key>settings</key>
         <dict>
           <key>foreground</key>
-          <string>#C678DD</string>
+          <string>#AE81FF</string>
         </dict>
       </dict>
       <dict>
         <key>name</key>
-        <string>Python Keyword Operator Logical</string>
+        <string>Keyword Operator Logical</string>
         <key>scope</key>
-        <string>keyword.operator.logical.python</string>
+        <string>keyword.operator.logical</string>
         <key>settings</key>
         <dict>
           <key>foreground</key>
-          <string>#C678DD</string>
+          <string>#AE81FF</string>
         </dict>
       </dict>
       <dict>
@@ -423,7 +423,7 @@
         <key>settings</key>
         <dict>
           <key>foreground</key>
-          <string>#00A8C6</string>
+          <string>#ABB2BF</string>
         </dict>
       </dict>
       <dict>
@@ -434,18 +434,18 @@
         <key>settings</key>
         <dict>
           <key>foreground</key>
-          <string>#ABB2BF</string>
+          <string>#4E65BD</string>
         </dict>
       </dict>
       <dict>
         <key>name</key>
         <string>Operator</string>
         <key>scope</key>
-        <string>keyword.operator, constant.other.color, punctuation.separator.key-value</string>
+        <string>constant.other.color, punctuation.separator.key-value</string>
         <key>settings</key>
         <dict>
           <key>foreground</key>
-          <string>#00A8C6</string>
+          <string>#ABB2BF</string>
         </dict>
       </dict>
       <dict>
@@ -456,18 +456,18 @@
         <key>settings</key>
         <dict>
           <key>foreground</key>
-          <string>#98C379</string>
+          <string>#ABB2BF</string>
         </dict>
       </dict>
       <dict>
         <key>name</key>
-        <string>Python Operator</string>
+        <string>Operator</string>
         <key>scope</key>
-        <string>python.keyword.operator</string>
+        <string>keyword.operator</string>
         <key>settings</key>
         <dict>
           <key>foreground</key>
-          <string>#00A8C6</string>
+          <string>#4E65BD</string>
         </dict>
       </dict>
       <dict>
@@ -480,14 +480,14 @@
           <key>fontStyle</key>
           <string/>
           <key>foreground</key>
-          <string>#C678DD</string>
+          <string>#AE81FF</string>
         </dict>
       </dict>
       <dict>
         <key>name</key>
         <string>Class name</string>
         <key>scope</key>
-        <string>entity.name.class, meta.class.extends variable.other.readwrite</string>
+        <string>entity.name.class, meta.class.extends, variable.other.readwrite</string>
         <key>settings</key>
         <dict>
           <key>fontStyle</key>
@@ -519,20 +519,20 @@
           <key>fontStyle</key>
           <string/>
           <key>foreground</key>
-          <string>#ABB2BF</string>
+          <string>#FD971F</string>
         </dict>
       </dict>
       <dict>
         <key>name</key>
-        <string>Python Function argument</string>
+        <string>Function argument</string>
         <key>scope</key>
-        <string>variable.parameter.function.language.python</string>
+        <string>variable.parameter.function.language</string>
         <key>settings</key>
         <dict>
           <key>fontStyle</key>
           <string/>
           <key>foreground</key>
-          <string>#FF9E00</string>
+          <string>#FD971F</string>
         </dict>
       </dict>
       <dict>
@@ -543,7 +543,7 @@
         <key>settings</key>
         <dict>
           <key>foreground</key>
-          <string>#FF0080</string>
+          <string>#F92672</string>
         </dict>
       </dict>
       <dict>
@@ -554,7 +554,7 @@
         <key>settings</key>
         <dict>
           <key>foreground</key>
-          <string>#FF9E00</string>
+          <string>#FD971F</string>
         </dict>
       </dict>
       <dict>
@@ -576,27 +576,27 @@
         <key>settings</key>
         <dict>
           <key>foreground</key>
-          <string>#00A8C6</string>
+          <string>#ABB2BF</string>
         </dict>
       </dict>
       <dict>
         <key>name</key>
-        <string>Python support function</string>
+        <string>support function</string>
         <key>scope</key>
-        <string>python.builtin.support.function</string>
+        <string>builtin.support.function</string>
         <key>settings</key>
         <dict>
           <key>fontStyle</key>
           <string/>
           <key>foreground</key>
-          <string>#C678DD</string>
+          <string>#AE81FF</string>
         </dict>
       </dict>
       <dict>
         <key>name</key>
-        <string>Python function</string>
+        <string>function</string>
         <key>scope</key>
-        <string>python.meta.function-call.builtin.support.function, python.meta.type.support.function-call, python.meta.variable.function-call.legacy.builtin</string>
+        <string>meta.function-call.builtin.support.function, meta.type.support.function-call, meta.variable.function-call.legacy.builtin</string>
         <key>settings</key>
         <dict>
           <key>fontStyle</key>
@@ -607,22 +607,22 @@
       </dict>
       <dict>
         <key>name</key>
-        <string>Python inheritance</string>
+        <string>inheritance</string>
         <key>scope</key>
-        <string>meta.type.support.inheritance.python</string>
+        <string>meta.type.support.inheritance</string>
         <key>settings</key>
         <dict>
           <key>fontStyle</key>
           <string/>
           <key>foreground</key>
-          <string>#00A8C6</string>
+          <string>#ABB2BF</string>
         </dict>
       </dict>
       <dict>
         <key>name</key>
-        <string>Python Entity Name Type</string>
+        <string>Entity Name Type</string>
         <key>scope</key>
-        <string>entity.name.type.class.python</string>
+        <string>entity.name.type.class</string>
         <key>settings</key>
         <dict>
           <key>foreground</key>
@@ -639,7 +639,7 @@
           <key>fontStyle</key>
           <string/>
           <key>foreground</key>
-          <string>#FF9E00</string>
+          <string>#FD971F</string>
         </dict>
       </dict>
       <dict>
@@ -664,6 +664,8 @@
         <dict>
           <key>fontStyle</key>
           <string/>
+          <key>foreground</key>
+          <string>#ABB2BF</string>
         </dict>
       </dict>
       <dict>
@@ -676,7 +678,7 @@
           <key>fontStyle</key>
           <string/>
           <key>foreground</key>
-          <string>#00A8C6</string>
+          <string>#ABB2BF</string>
         </dict>
       </dict>
       <dict>
@@ -713,7 +715,7 @@
         <key>settings</key>
         <dict>
           <key>foreground</key>
-          <string>#FF0080</string>
+          <string>#F92672</string>
         </dict>
       </dict>
       <dict>
@@ -724,7 +726,7 @@
         <key>settings</key>
         <dict>
           <key>foreground</key>
-          <string>#98C379</string>
+          <string>#A6E22E</string>
         </dict>
       </dict>
       <dict>
@@ -735,7 +737,7 @@
         <key>settings</key>
         <dict>
           <key>foreground</key>
-          <string>#C678DD</string>
+          <string>#AE81FF</string>
         </dict>
       </dict>
       <dict>
@@ -746,7 +748,7 @@
         <key>settings</key>
         <dict>
           <key>foreground</key>
-          <string>#FF0080</string>
+          <string>#F92672</string>
         </dict>
       </dict>
       <dict>
@@ -768,7 +770,7 @@
         <key>settings</key>
         <dict>
           <key>foreground</key>
-          <string>#C678DD</string>
+          <string>#AE81FF</string>
         </dict>
       </dict>
 	  <dict>
@@ -790,7 +792,7 @@
         <key>settings</key>
         <dict>
           <key>foreground</key>
-          <string>#00A8C6</string>
+          <string>#ABB2BF</string>
         </dict>
       </dict>
       <dict>
@@ -801,7 +803,7 @@
         <key>settings</key>
         <dict>
           <key>foreground</key>
-          <string>#FF9E00</string>
+          <string>#FD971F</string>
         </dict>
       </dict>
       <dict>
@@ -812,7 +814,7 @@
         <key>settings</key>
         <dict>
           <key>foreground</key>
-          <string>#00A8C6</string>
+          <string>#ABB2BF</string>
         </dict>
       </dict>
       <dict>
@@ -823,7 +825,7 @@
         <key>settings</key>
         <dict>
           <key>foreground</key>
-          <string>#FF9E00</string>
+          <string>#FD971F</string>
         </dict>
       </dict>
       <dict>
@@ -834,14 +836,14 @@
         <key>settings</key>
         <dict>
           <key>foreground</key>
-          <string>#98C379</string>
+          <string>#A6E22E</string>
         </dict>
       </dict>
       <dict>
         <key>name</key>
         <string>Markdown Keyword</string>
         <key>scope</key>
-        <string>markup.fenced_code.block.markdown keyword.operator, markup.fenced_code.block.markdown keyword.operator.logical.python, markup.fenced.code.block.markdown keyword.operator, markup.fenced_code.block.markdown keyword.control, markup.fenced.code.block.markdown keyword.control, markup.fenced_code.block.markdown storage.type, markup.fenced_code.block.markdown storage.type.function.lambda, markdown.block.fenced.code.lambda.storage.type</string>
+        <string>markup.fenced_code.block.markdown keyword.operator, markup.fenced_code.block.markdown keyword.operator.logical, markup.fenced.code.block.markdown keyword.operator, markup.fenced_code.block.markdown keyword.control, markup.fenced.code.block.markdown keyword.control, markup.fenced_code.block.markdown storage.type, markup.fenced_code.block.markdown storage.type.function.lambda, markdown.block.fenced.code.lambda.storage.type</string>
         <key>settings</key>
         <dict>
           <key>foreground</key>
@@ -856,7 +858,7 @@
         <key>settings</key>
         <dict>
           <key>foreground</key>
-          <string>#ABB2BF</string>
+          <string>#4E65BD</string>
         </dict>
       </dict>
       <dict>
@@ -867,7 +869,7 @@
         <key>settings</key>
         <dict>
           <key>foreground</key>
-          <string>#FF9E00</string>
+          <string>#FD971F</string>
         </dict>
       </dict>
       <dict>
@@ -911,7 +913,7 @@
         <key>settings</key>
         <dict>
           <key>foreground</key>
-          <string>#E6DB74</string>
+          <string>#ABB2BF</string>
         </dict>
       </dict>
       <dict>
@@ -929,7 +931,7 @@
         <key>settings</key>
         <dict>
           <key>foreground</key>
-          <string>#E6DB74</string>
+          <string>#ABB2BF</string>
         </dict>
       </dict>
     </array>
