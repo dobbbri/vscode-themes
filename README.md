@@ -3,9 +3,9 @@
 A beauty collection of high quality VS Code themes
 
 ### JS
-![js](/img/preview.png)
+![js](https://raw.githubusercontent.com/sldobri/vscode-themes/img/preview.png)
 
 ### Html
-![html](/img/preview2.png)
+![html](https://raw.githubusercontent.com/sldobri/vscode-themes/img/preview2.png)
 
 New Themes coming soon ...
