@@ -1,22 +1,34 @@
 {
-    "name": "dobri",
-    "displayName": "Dobri Theme",
-    "description": "Dobri Dark And Vivid Color Theme",
-    "version": "0.0.1",
-    "publisher": "vsce",
-    "engines": {
-        "vscode": "^1.11.0"
-    },
-    "categories": [
-        "Themes"
+  "name": "dobri",
+  "displayName": "Dobri Themes and Icons",
+  "description": "Dobri Dark and Vivid Color Theme and Icons , the better color theme and icons for Visual Studio Code",
+  "version": "0.0.1",
+  "publisher": "vsce",
+  "engines": {
+    "vscode": "^1.11.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Dobri Dark And Vivid Colors - light grey ascent",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Dobri000.tmTheme"
+      },
+      {
+        "label": "Dobri Dark And Vivid Colors - indigo ascent",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Dobri001.tmTheme"
+      }
     ],
-    "contributes": {
-        "themes": [
-            {
-                "label": "Better color theme for Visual Studio Code",
-                "uiTheme": "vs-dark",
-                "path": "./themes/Dobri001.tmTheme"
-            }
-        ]
-    }
+    "iconThemes": [
+      {
+        "id": "dobri-theme-icons",
+        "label": "Dobri Dark And Vivid Icons",
+        "path": "./icons.json"
+      }
+    ]
+  }
 }
