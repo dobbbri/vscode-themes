@@ -1,6 +1,6 @@
-# Dobri Theme pack
+# Dobri Theme and Icons pack
 
-A beauty collection of high quality VS Code themes
+Dobri Dark and Vivid Color Theme and Icons. The better color theme and icons for Visual Studio Code
 
 ### JS
 ![js](https://raw.githubusercontent.com/sldobri/vscode-themes/master/img/preview.png)
@@ -8,4 +8,5 @@ A beauty collection of high quality VS Code themes
 ### Html
 ![html](https://raw.githubusercontent.com/sldobri/vscode-themes/master/img/preview2.png)
 
-New Themes coming soon ...
+New Themes and Icons coming soon ...
+
